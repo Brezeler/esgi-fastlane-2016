@@ -10,4 +10,4 @@ before_install:
 	- gem install bundler
 	- bundle install && brew bundle
 script:
-	- bundle exec fastlane testes
+	- bundle exec fastlane tests
